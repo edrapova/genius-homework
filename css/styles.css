@@ -1,0 +1,136 @@
+
+/* font play-regular*/
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+  
+}
+
+/* font play-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+   
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+  
+}
+-->
+
+:root {
+    --color-main-text: #011C44;
+    --color-hero: #2B7FFF;
+    --color-white: #FFFFFF;
+    
+}
+
+/*Base*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+.button {
+    color: #FFFFFF;;
+    background-color: #2B7FFF;
+    border: 2px solid #2B7FFF;
+    border-radius: 8px;
+    font-weight: 600px;
+    
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.under-button {
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-weight: 400;
+}
+
+body {
+    color: var(--color-main-text);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.72;
+
+}
+
+/*Link*/
+.link {
+    color: var(--color-main-text)
+    text-decoration: none;
+    line-height: 1.17;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+/* Hero title*/
+.hero-title {
+    color: var(--color-hero);
+    font-family: 'Play', sans-serif;
+    text-align: left;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.accent {
+    color: var(--color-hero);
+}
+
+.section-title {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center ;
+
+}
+
+.article-meaning {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.33;
+
+}
+
+address {
+    font-style: normal;
+}
+
+ ul {
+     list-style-type: none;
+ }
+
+/* Footer*/
+.adress-link {
+    color: #FFFFFF;;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*Adventeges list*/
+.advantages-list {
+    background-color: var(--color-main-text);
+}
